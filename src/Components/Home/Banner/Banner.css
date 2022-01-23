@@ -1,0 +1,13 @@
+.bg-banner {
+    background-image: linear-gradient(to right, rgb(160, 245, 193), rgb(255, 241, 235));
+}
+.btn_banner {
+    background-color: white;
+    border: 1px solid green;
+    color: rgb(1, 87, 27);
+}
+.btn_banner:hover {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}

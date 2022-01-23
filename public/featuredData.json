@@ -1,0 +1,52 @@
+[
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/L8PKwzg/cabbage.png",
+        "name": "Fresh Cabbage",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+      {
+        "rating": "4",
+        "image": "https://i.ibb.co/7WXbHhG/Red-berry-strawberry-isolated-on-white-background.jpg",
+        "name": "Fresh Red Strawberry",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "4",
+        "image": "https://i.ibb.co/GtR4mPm/garlic.jpg",
+        "name": "Fresh Garlic",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/jRJ54SY/mango.jpg",
+        "name": "Fresh Mango",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "3.5",
+        "image": "https://i.ibb.co/8cNdYDp/Onion.jpg",
+        "name": "Fresh Onion",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+   
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/dKgTp99/Fresh-Turmeric-Curcuma-longa-with-the-leaf-on-white-background-Commercial-image-of-medicinal-plant-i.jpg",
+        "name": "Fresh Green Chilli",
+        "price": "69",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      }
+    
+]

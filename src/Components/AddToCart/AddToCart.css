@@ -1,0 +1,23 @@
+.offcanvas-end {
+    width: 380px;
+}
+
+.offcanvas-header {
+    background-color: rgb(82, 248, 146);
+    color: #fff;
+    box-shadow: 4px 0px 15px 14px #4e4a4a91;
+}
+
+.cart_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(82, 248, 146);
+    box-shadow: 4px 0px 30px 14px #4e4a4a91;
+}
+
+.cart_footer .btn_regular {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}

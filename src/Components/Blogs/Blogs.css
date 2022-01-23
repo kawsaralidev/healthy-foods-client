@@ -1,0 +1,21 @@
+.blog_card {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.blog_card:hover {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.recent_box {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin: 8px;
+    margin-top: 15px;
+}

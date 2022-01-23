@@ -1,0 +1,39 @@
+.category_items h3 {
+    text-align: left;
+    color: gray;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+}
+
+.category_items ul {
+    padding: 0;
+    text-align: left;
+}
+
+.category_items li {
+    list-style: none;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.category_items li {
+    list-style: none;
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.category_items li a {
+    text-align: left;
+    text-decoration: none;
+    color: #545151;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 15px;
+}
+
+.category_items li a:hover {
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}

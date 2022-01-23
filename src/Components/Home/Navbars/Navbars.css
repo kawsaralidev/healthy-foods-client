@@ -1,0 +1,113 @@
+/* right nav icon */
+.search_input {
+    border: 1px solid gray;
+}
+
+.search_input:hover {
+    border: 1px solid #17d74a;
+}
+.nav_icon {
+    font-size: 22px;
+    color: black !important;
+    display: flex;
+    align-items: center;
+}
+.nav_icon:hover {
+    font-size: 22px;
+    color: rgb(0, 206, 21) !important;
+    display: flex;
+    align-items: center;
+}
+
+.nav_icon span {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: red !important;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -3px;
+    margin-top: -14px;
+    line-height: 1;
+}
+#navbars-dropdown {
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(82, 248, 146);
+    border-radius: 5px;
+    font-weight: 600;
+}
+#navbars-item {
+    color: green;
+    background-color: white;
+    font-weight: 600;
+}
+#navbars-item:hover {
+    color: white;
+    background-color: rgb(82, 248, 146);
+    font-weight: 600;
+}
+
+.nav-contact p {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+}
+.nav-contact span {
+    font-weight: 500;
+}
+.nav-contact {
+    margin: 0px;
+}
+.main_nav-style {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(61, 60, 60) !important;
+    margin-right: 25px;
+}
+.main_nav-style:hover {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+    color: rgb(0, 214, 21) !important;
+}
+.account {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(61, 60, 60) !important;
+}
+.account:hover {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 214, 21) !important;
+}
+
+.categoy_link {
+    position: relative;
+}
+
+.categoy_dropdown {
+    margin-top: 37px;
+    position: absolute;
+    background: #fff;
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid green;
+    box-shadow: 5px 20px 30px 10px rgb(0 0 0 / 45%);
+    border-top: 5px solid var(--red);
+    border-radius: 5px;
+}
+
+.categoy_link:hover .categoy_dropdown {
+    opacity: 1;
+    top: 173px;
+    z-index: 9999;
+}

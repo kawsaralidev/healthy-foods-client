@@ -1,0 +1,13 @@
+.banner-card {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    position: relative;
+    height: 120px;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.banner-card img {
+    height: 120px;
+    width: 135px;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Hasan",
+        "image":"https://i.ibb.co/DQ9MnDK/Portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey-backgro.jpg",
+        "rating":"5",
+        "description":"A review is judgement  of the quality or discussion of something. Review also means to go over a subject again as part of study  something another time. Review has many other senses as both a noun and a verb"
+    },
+    {
+        "name": "Oisoria",
+        "image":"https://i.ibb.co/RcHMn9Y/Portrait-of-young-long-haired-cheerful-woman-wearing-white-shirt-against-plain-background.jpg",
+        "rating":"4",
+        "description":"A review is judgement or discussion of the quality of something. Review also means to go over a subject again as part of study  something another time. Review has many other senses as both a noun and a verb"
+    },
+    
+    {
+        "name": "Komola",
+        "image":"https://i.ibb.co/Yf3WwQr/pic4.jpg",
+        "rating":"4.5",
+        "description":"A review is judgement or discussion of the quality of something. Review also means to go over a subject again as part of study  something another time. Review has many other senses as both a noun and a verb"
+    },
+    {
+        "name": "Walker",
+        "image":"https://i.ibb.co/KD9K359/pic2.jpg",
+        "rating":"5",
+        "description":"A review is judgement or discussion of the quality of something. Review also means to go over a subject again as part of study  something another time. Review has many other senses as both a noun and a verb."
+    }
+]

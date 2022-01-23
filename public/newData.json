@@ -1,0 +1,83 @@
+[
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/zVKy4Qc/gajor.jpg",
+        "name": "Fresh Carrots",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "4",
+        "image": "https://i.ibb.co/x676FRz/new1.jpg",
+        "name": "Fresh Capsicum",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/sjpqj7c/redchilli.jpg",
+        "name": "Fresh Red Chilli",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "3.5",
+        "image": "https://i.ibb.co/Lx8xb7M/allu.jpg",
+        "name": "Fresh Green Potato",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "4",
+        "image": "https://i.ibb.co/NKBBvnn/begun.jpg",
+        "name": "Fresh Green Eggplant",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "5",
+        "image": "https://i.ibb.co/j8sBvk1/chilli.jpg",
+        "name": "Fresh Green Chilli",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "4.5",
+        "image": "https://i.ibb.co/7YhTK1H/dherosh.jpg",
+        "name": "Fresh Ladies Finger",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "3",
+        "image": "https://i.ibb.co/phK5sZH/fullcope.jpg",
+        "name": "Fresh Cauliflower",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+   
+    {
+        "rating": "4.5",
+        "image": "https://i.ibb.co/6R308QN/sosha.jpg",
+        "name": "Fresh Green Cucumber",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      },
+    {
+        "rating": "3.5",
+        "image": "https://i.ibb.co/KXj015s/tomato.jpg",
+        "name": "Fresh Red Tomato",
+        "price": "40",
+        "description": "A food is a must for our body. It is very useful to build up and maintain sound body. Good food means the right kind of food for good body and good health. Good food gives us energy to work hard"
+        
+      }
+]
