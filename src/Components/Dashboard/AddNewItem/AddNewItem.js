@@ -4,12 +4,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
 const AddNewItem = () => {
-    const {
-        register,
-        handleSubmit,
-        reset,
-        formState: { errors },
-    } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = (data) => {
         console.log(data);

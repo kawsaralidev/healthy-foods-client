@@ -19,6 +19,7 @@ import AdminRoute from "./Components/AdminRoute/AdminRoute";
 import AddReview from "./Components/Dashboard/AddReview/AddReview";
 import AddFeaturedItem from "./Components/Dashboard/AddFeaturedItem/AddFeaturedItem";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
+import DashboardHome from "./Components/Dashboard/DashboardHome/DashboardHome";
 
 function App() {
     return (
@@ -35,54 +36,65 @@ function App() {
                         <Route path="/carts" element={<Carts />}></Route>
                         <Route path="/register" element={<Register />} />
                         <Route path="/login" element={<Login />} />
-                        <Route
-                            path="/dashboard/addReview"
-                            element={
-                                <PrivateRoute>
-                                    <AddReview />
-                                </PrivateRoute>
-                            }
-                        />
-                        <Route
-                            path="/dashboard/addFeatured"
-                            element={
-                                <AdminRoute>
-                                    <AddFeaturedItem />
-                                </AdminRoute>
-                            }
-                        />
+
                         <Route
                             path="/dashboard"
                             element={
-                                <PrivateRoute>
+                                <AdminRoute>
                                     <Dashboard />
-                                </PrivateRoute>
-                            }
-                        />
-                        <Route
-                            path="/dashboard/makeAdmin"
-                            element={
-                                <AdminRoute>
-                                    <MakeAdmin />
                                 </AdminRoute>
                             }
-                        />
-                        <Route
-                            path="/dashboard/addNewItem"
-                            element={
-                                <AdminRoute>
-                                    <AddNewItem />
-                                </AdminRoute>
-                            }
-                        />
-                        <Route
-                            path="/dashboard/addBlogs"
-                            element={
-                                <AdminRoute>
-                                    <AddBlog />
-                                </AdminRoute>
-                            }
-                        />
+                        >
+                            <Route
+                                path={`/dashboard`}
+                                element={
+                                    <AdminRoute>
+                                        <DashboardHome />
+                                    </AdminRoute>
+                                }
+                            />
+                            <Route
+                                path={`/dashboard/addReview`}
+                                element={
+                                    <PrivateRoute>
+                                        <AddReview />
+                                    </PrivateRoute>
+                                }
+                            />
+                            <Route
+                                path={`/dashboard/addFeatured`}
+                                element={
+                                    <AdminRoute>
+                                        <AddFeaturedItem />
+                                    </AdminRoute>
+                                }
+                            />
+
+                            <Route
+                                path={`/dashboard/makeAdmin`}
+                                element={
+                                    <AdminRoute>
+                                        <MakeAdmin />
+                                    </AdminRoute>
+                                }
+                            />
+                            <Route
+                                path={`/dashboard/addNewItem`}
+                                element={
+                                    <AdminRoute>
+                                        <AddNewItem />
+                                    </AdminRoute>
+                                }
+                            />
+                            <Route
+                                path={`/dashboard/addBlogs`}
+                                element={
+                                    <AdminRoute>
+                                        <AddBlog />
+                                    </AdminRoute>
+                                }
+                            />
+                        </Route>
                     </Routes>
                     <Footer></Footer>
                 </BrowserRouter>

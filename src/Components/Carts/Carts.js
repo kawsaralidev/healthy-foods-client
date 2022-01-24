@@ -11,7 +11,7 @@ const Carts = () => {
 
     //fetch cartProducts API
     useEffect(() => {
-        fetch("")
+        fetch("http://localhost:5000/usersProducts")
             .then((res) => res.json())
             .then((data) => setCartProducts(data));
     }, [cartProducts]);

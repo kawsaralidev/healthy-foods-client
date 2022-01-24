@@ -19,7 +19,7 @@ const NewItems = () => {
                 </h1>
                 <div className="row ">
                     {newItem.slice(0, 8).map((items) => (
-                        <NewItem items={items}></NewItem>
+                        <NewItem key={items._id} items={items}></NewItem>
                     ))}
                 </div>
             </div>

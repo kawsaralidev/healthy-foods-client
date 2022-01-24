@@ -4,11 +4,24 @@ import Rating from "react-rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
+import axios from "axios";
 
 const cartPlus = <FontAwesomeIcon icon={faCartPlus} />;
 
 const FeaturedItem = ({ item }) => {
-    const { name, description, image, rating, price } = item;
+    const { user } = useAuth();
+    const { name, description, image, rating, price, _id } = item;
+    const { email } = user;
+    const featuredData = { name, description, image, rating, price, _id, email };
+
+    const handleSaveProduct = () => {
+        axios.post("http://localhost:5000/usersProducts", featuredData).then((res) => {
+            if (res.data.insertedId) {
+                alert("product added successfully!");
+            }
+        });
+    };
 
     function MyVerticallyCenteredModal(props) {
         return (
@@ -28,7 +41,7 @@ const FeaturedItem = ({ item }) => {
                         </Modal.Body>
                         <Modal.Footer className="d-flex justify-content-between align-items-center px-4">
                             <h4 style={{ color: "green" }}>${price}</h4>
-                            <Button className="btn_banner" onClick={props.onHide}>
+                            <Button className="btn_banner" onClick={handleSaveProduct}>
                                 Shop Now
                             </Button>
                         </Modal.Footer>
@@ -61,7 +74,9 @@ const FeaturedItem = ({ item }) => {
                     </div>
                     <div>
                         <Link to={""}>
-                            <Button className="btn_new me-3">{cartPlus} Shop</Button>
+                            <Button onClick={handleSaveProduct} className="btn_new me-3">
+                                {cartPlus} Shop
+                            </Button>
                         </Link>
                         <Button onClick={() => setModalShow(true)} className="btn_new">
                             Details

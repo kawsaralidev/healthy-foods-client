@@ -45,7 +45,7 @@ const Blogs = () => {
                         <Col xs md={9}>
                             <Row className="g-3">
                                 {blogs.map((blog) => (
-                                    <Blog blog={blog}></Blog>
+                                    <Blog key={blog._id} blog={blog}></Blog>
                                 ))}
                             </Row>
                         </Col>

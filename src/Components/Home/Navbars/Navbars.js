@@ -12,7 +12,7 @@ const hardIcon = <FontAwesomeIcon icon={faHeart} />;
 const barsIcon = <FontAwesomeIcon icon={faBars} />;
 
 const Navbars = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut, admin } = useFirebase();
     console.log(user);
 
     return (
@@ -124,7 +124,7 @@ const Navbars = () => {
                                 Blogs
                             </Nav.Link>
 
-                            {user.email ? (
+                            {admin ? (
                                 <Nav.Link className="main_nav-style" as={Link} to="/dashboard">
                                     Dashboard
                                 </Nav.Link>

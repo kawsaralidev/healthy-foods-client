@@ -4,8 +4,9 @@ import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 
 const closeIcon = <FontAwesomeIcon icon={faTimes} />;
-const Cart = () => {
-    const { _id, name, price, picture } = "";
+const Cart = ({ product }) => {
+    console.log(product);
+    const { _id, name, price, image } = product;
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -32,7 +33,7 @@ const Cart = () => {
         <>
             <tr>
                 <td className="d-flex align-items-center">
-                    <img style={{ width: "50px", marginLeft: "15px" }} src={picture} alt="" />
+                    <img style={{ width: "50px", marginLeft: "15px" }} src={image} alt="" />
                     <span style={{ marginLeft: "15px", fontWeight: "600" }}>{name}</span>
                 </td>
                 <td>

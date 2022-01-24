@@ -18,7 +18,7 @@ const FeaturedItems = () => {
                 </h1>
                 <div className="row">
                     {items.map((item) => (
-                        <FeaturedItem item={item}></FeaturedItem>
+                        <FeaturedItem key={item._id} item={item}></FeaturedItem>
                     ))}
                 </div>
             </div>

@@ -1,10 +1,12 @@
 import React from "react";
-import { faSignOutAlt, faUser, faCartPlus, faThLarge, faEdit, faCog, faUserShield } from "@fortawesome/free-solid-svg-icons";
+import { faSignOutAlt, faUser, faCartPlus, faThLarge, faEdit, faUserShield } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Row } from "react-bootstrap";
 import { NavLink, Outlet } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import "./Dashboard.css";
+import Login from "../../Login/Login/Login";
+import DashboardHome from "../DashboardHome/DashboardHome";
 
 const Dashboard = () => {
     const { user, logOut } = useAuth();

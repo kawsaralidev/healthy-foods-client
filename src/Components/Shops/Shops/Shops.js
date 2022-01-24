@@ -11,14 +11,10 @@ const Shops = () => {
     }, []);
     return (
         <div style={{ backgroundColor: "rgb(240, 240, 240)" }}>
-            <div className="container py-4">
-                <h1 className="my-5">
-                    <span style={{ color: "red", borderBottom: "2px solid red" }}>Featured </span>Items
-                    <span style={{ color: "red" }}>...</span>
-                </h1>
+            <div style={{ marginTop: "-50px", paddingBottom: "30px" }} className="container ">
                 <div className="row">
                     {items.map((item) => (
-                        <Shop item={item}></Shop>
+                        <Shop key={item._id} item={item}></Shop>
                     ))}
                 </div>
             </div>

@@ -54,15 +54,29 @@ const useFirebase = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
                 const user = result.user;
-                const destination = location?.state?.from || "/home";
-                navigate(destination);
-
-                // save user to the database
                 saveUser(user.email, user.displayName, "PUT");
+
+                const destination = location?.state?.from || "/";
+                navigate(destination);
             })
             .catch((error) => {})
             .finally(() => setIsLoading(false));
     };
+
+    // const signInWithGoogle = (location, navigate) => {
+    //     setIsLoading(true);
+    //     signInWithPopup(auth, googleProvider)
+    //         .then((result) => {
+    //             const user = result.user;
+    //             const destination = location?.state?.from || "/home";
+    //             navigate(destination);
+
+    //             // save user to the database
+    //             saveUser(user.email, user.displayName, "PUT");
+    //         })
+    //         .catch((error) => {})
+    //         .finally(() => setIsLoading(false));
+    // };
 
     // observer user state
     useEffect(() => {

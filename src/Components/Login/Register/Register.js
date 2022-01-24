@@ -7,7 +7,7 @@ const Register = () => {
     const [loginData, setLoginData] = useState({});
     const { registerUser, signInWithGoogle } = useFirebase();
 
-    // const location = useLocation();
+    const location = useLocation();
     const navigate = useNavigate();
 
     const handleOnBlur = (e) => {
@@ -28,7 +28,7 @@ const Register = () => {
         e.preventDefault();
     };
     const handleGoogleSignIn = () => {
-        signInWithGoogle(navigate);
+        signInWithGoogle(location, navigate);
     };
     return (
         <div className="container py-5 my-5">
