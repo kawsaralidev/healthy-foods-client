@@ -37,11 +37,19 @@ const Navbars = () => {
                                         Log Out
                                     </Button>
                                 ) : (
-                                    <Link to="/login">
-                                        <Button className="btn_banner" color="inherit">
-                                            Login
-                                        </Button>
-                                    </Link>
+                                    <div>
+                                        <Link to="/login">
+                                            <Button className="btn_nav" color="inherit">
+                                                Login
+                                            </Button>
+                                        </Link>{" "}
+                                        <br />
+                                        <Link to="/register">
+                                            <Button className="btn_nav" color="inherit">
+                                                Register
+                                            </Button>
+                                        </Link>
+                                    </div>
                                 )}
                             </NavDropdown.Item>
                         </NavDropdown>

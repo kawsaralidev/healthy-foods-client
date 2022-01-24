@@ -17,7 +17,7 @@ const Cart = ({ product }) => {
     // const dispatch = useDispatch();
 
     const handleDeleteOrder = (id) => {
-        const url = ``;
+        const url = `http://localhost:5000/usersProducts/${id}`;
 
         fetch(url, {
             method: "DELETE",
@@ -25,6 +25,7 @@ const Cart = ({ product }) => {
             .then((res) => res.json())
             .then((data) => {
                 if (data.deletedCount > 0) {
+                    alert("delete successfully");
                 }
             })
             .finally(setShow(false));
